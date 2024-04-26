@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div class="container" id="container_geral">
+        <div class="navbar">
+            <div class="navbar_logo">
+            <img
+            src="./assets/LOGO.jpg"
+            alt="logotipo do site, um ícone do valorant"
+        />
+        </div>
+<!-- dentro de container se cria uma classe navbar com as informações
+da minha logo, no caso seu diretório, sua descrição e tamanho -->
+    <div class="container_titulo">
+        <h1>
+            ValNews
+        </h1>
+    </div>
+<div class="container_lista">
+        <ul>
+            <li>Notícias</li>
+            <li>Sobre</li>
+            <li>NewSletter</li>
+        </ul>
+        <br>
+    </div>
+</div>
+<!-- itens da navbar -->
+    <section class="sessao">
+        <h1><i>Principais informações sobre seu jogo preferido!</i></h1>
+        <p>Aqui você encontra as principais notícias do cenário de Valorant</p>
+    </section>
+    <div class="container_projects">
+        <div class="projects_titles">
+            <!-- separador -->
+            <div class="container_separador">
+                <hr color="red" />
+                <h1>Confira as Notícias</h1>
+                <hr color="red" />
+            </div>
+            <!-- nomeados como cards -->
+        </div>
+        <div class="BLOCOS_IMAGENS">
+            
+            <div class="bloco_imagem">
+                <div class="imagem_bloco">
+                        <img src="./assets/saadhak.jpg" 
+                        alt="Homem com uma expressão de estresse"
+                      >
+                </div>
+                <p>"Fazia tempo que não ficava triste." 
+                     desabafa Saahak sobre a LOUD.</p>
+        </div>
+            <div class="bloco_imagem">
+                <div class="imagem_bloco">
+                        <img src="./assets/VALORANT-Masters-Shanghai.png" 
+                        alt="Imagem com uma localidade no fundo"
+                      >
+                </div>
+                <p>Insider “confirma” adiamento de novo mapa para o 
+                                Masters Shanghai</p>
+        </div>
+        <div class="bloco_imagem">
+            <div class="imagem_bloco">
+                    <img src="./assets/johnqt-sentinels-vct-americas-2024.jpg" 
+                    alt="Homem com uma vestimenta vermelha com uma expressão pensativa"
+                  >
+            </div>
+            <p>Ex-treinador diz que queda de rendimento da Sentinels é normal</p>
+        </div>
+        <div class="bloco_imagem">
+            <div class="imagem_bloco">
+                    <img src="./assets/riot1.png"
+                    alt="Homem com uma vestimenta vermelha com uma expressão pensativa"
+                  >
+            </div>
+            <p>Riot corrige bugs na Viper, Harbor e Astra</p>
+        </div>
+        <div class="bloco_imagem">
+            <div class="imagem_bloco">
+                    <img src="./assets/loud-valorant-masters-madrid-2024-eliminacao-800x450.jpg"
+                    alt="Time de jogadores virados de costas"
+                  >
+            </div>
+            <p>VCT Americas 2024: LOUD tem maior sequência de derrotas</p>
+        </div>
+        <div class="bloco_imagem">
+            <div class="imagem_bloco">
+                    <img src="./assets/vanguard.jpeg"
+                    alt="Simbolo do sistema anti trapaça do jogo Valorant"
+                  >
+            </div>
+            <p>Vanguard bane cheaters que tentavam contornar atualização</p>
+        </div>
+    </div>
+</div>
+    <div class="container_separador2">
+        <hr color="red" />
+        <h1>Sobre o Desenvolvedor</h1>
+        <hr color="red" />
+    <br>
+    <br>
+    <div class="container_perfil">
+
+        <div class="foto_perfil">
+            <img src="./assets/perfil.png"
+            alt="Mulher de 18 anos, cabelo liso e óculos pretos"
+            >
+        </div>
+        <div class="texto_perfil">
+            <p>Me chamo Rafaela Beber Coelho, tenho 18 anos e moro na cidade de Petrópolis no Rio de Janeiro, estou
+                estudando TI na Faeterj Petrópolis e pretendo fazer uma segunda graduação na área tecnológica na UFF. 
+                Tenho muito interesse na área de desenvolvimento e pretendo me tornar uma profissional FullStack. 
+                Este é meu primeiro projeto na matéria de FrontEnd Essencial</p>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+
+    <!-- SEPARAÇÃO PARA O FORMULÁRIO -->
+
+    <div class="container_separador3">
+        
+        <hr color="red" />
+        <h1>NewSletter</h1>
+        <hr color="red" />
+            
+            <section class="sessao2">
+                <p>Cadastre-se para receber novas notícias!</p>
+            </section>
+           
+            <div class="formulario">
+
+                <div class="personalizacao_formulario">
+                    <form action="processar_formulario.php" method="POST">
+                        
+                        <div class="nome_formulario">
+                            <input type="text" id="nome" name="Nome" placeholder= "Nome" required><br><br>    
+                        </div>
+
+                        <div class="email_formulario">
+                            <input type="email" id="email" name="E-mail" placeholder= "E-mail" required><br><br>                          
+                        </div>
+
+                        <div class="checkbox">
+                            <input type="checkbox" id="receberEmails" name="receberEmails">
+                            <label for="receberEmails">Desejo receber emails com atualizações.</label><br><br>
+                        </div>
+
+                        <div class="botao">
+                            <button>Enviar</button>
+                        </div>
+                            
+                        
+                    </form>
+                </div>
+
+            </div>
+    </div>
+   
+    <footer>
+        <p>Desenvolvido por Rafaela Beber.</p>
+        <p>Residência TIC Serratec; 2024.1; Turma 18.</p>
+    </footer>
+</div>
+</body>
+</html>
